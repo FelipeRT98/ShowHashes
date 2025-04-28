@@ -32,9 +32,9 @@ I created Show Hashes because I wanted a fast and easy way to check, search, and
 Show Hashes is a Windows Presentation Foundation application which requires [.NET 8.0](https://dotnet.microsoft.com/en-us/download/dotnet/8.0).
 
 To build the application for different architectures, use the following commands:
-- **64 bit**: `dotnet publish -r win-x64 -p:PublishSingleFile=true --self-contained false`
-- **32 bit**: `dotnet publish -r win-x86 -p:PublishSingleFile=true --self-contained false`
-- **ARM**: `dotnet publish -r win-arm64 -p:PublishSingleFile=true --self-contained false`
+- **64 bit**: `dotnet publish -c Release -r win-x64 -p:PublishSingleFile=true --self-contained false`
+- **32 bit**: `dotnet publish -c Release -r win-x86 -p:PublishSingleFile=true --self-contained false`
+- **ARM**:    `dotnet publish -c Release -r win-arm64 -p:PublishSingleFile=true --self-contained false`
 
 ---
 
