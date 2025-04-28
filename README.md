@@ -11,7 +11,7 @@ Show Hashes is a program to quickly view a file’s hash values.
 
 ## Why
 
-I created Show Hashes because I wanted a fast and easy way to check, search, and copy file hashes on Windows 11.
+I created Show Hashes because I wanted a fast and easy way to check, search, and copy file hashes directly from the Windows context menu.
 
 ## Features
 
@@ -23,7 +23,7 @@ I created Show Hashes because I wanted a fast and easy way to check, search, and
 - **Custom prefix**: Optionally set a custom prefix before the hash value when copying or searching.
 - **Multilingual Support**: English, Español, Deutsch, Português, Français, Italiano, 日本語, 한국어, 中文, हिन्दी, Русский.
 - **Portable**: No installation required, place the executable anywhere and run it.
-- **Context Menu Integration**: Optionally and recommended, Show Hashes can be added to the Windows context menu by running the [registry tool script](https://github.com/FelipeRT98/ShowHashes/blob/main/ShowHashes-registry-tools.bat).
+- **Context Menu Integration**: Show Hashes can be added to the Windows context menu by running the [registry tool script](https://github.com/FelipeRT98/ShowHashes/blob/main/ShowHashes-registry-tools.bat).
 
 
 
