@@ -5,23 +5,23 @@
 
 ## What
 
-This is a program to view a given file's hashes.
+Show Hashes is a program to quickly view a file’s hash values.
 
 ![1](.github/shs-screenshot-1.png)
 
 ## Why
 
-Show Hashes is a tool I wanted to have in order to quickly check, search and copy hashes in Windows 11
+I created Show Hashes because I wanted a fast and easy way to check, search, and copy file hashes on Windows 11.
 
 ## Features
 
 - **Supported hash methods**: CRC32, MD5, SHA1, SHA256.
-- **Copy to clipboard**: Copy individual hashes or all the enabled ones.
-- **Browser search**: Support to search individual or all the hashes in different browser engines: Google, Bing, DuckDuckGo, Yandex.
-- **Whitelist, blacklist and single selection**: You can choose which hashes you want, by whitelisting, blacklisting or selecting individually
-- **Toggle hash method**: YOu have the option to inlcude or nor the hash method when copying or searching.
-- **Separator**: YOu have the option to set a custom separator when copying or searching.
-- **Multilingual Support**: Available in multiple languages, including English, Español, Deutsch, Português, Français, Italiano, 日本語, 한국어, 中文, हिन्दी, and Русский.
+- **Copy to clipboard**: Copy individual hashes or all enabled hashes at once.
+- **Browser search**: Search for individual or multiple hashes using your preferred search engine (Google, Bing, DuckDuckGo, Yandex).
+- **Selection control**: Enable, disable, or individually select which hashes you want to use via whitelisting, blacklisting, or manual selection.
+- **Include method name**: Optionally include the hash method (e.g., "MD5") when copying or searching.
+- **Custom prefix**: Optionally set a custom prefix before the hash value when copying or searching.
+- **Multilingual Support**: English, Español, Deutsch, Português, Français, Italiano, 日本語, 한국어, 中文, हिन्दी, Русский.
 
 
 ## Build
