@@ -33,6 +33,8 @@ namespace ShowHashes
     public partial class MainWindow : Window, INotifyPropertyChanged
     {
         // CONFIG FILE
+        public string configFilePath;
+        public static readonly string CONFIG_FILE_DIR = AppContext.BaseDirectory;
         public readonly string CONFIG_FILE_NAME = "ShowHashes-config.json";
         public readonly JsonSerializerOptions JSON_SERIALIZER_OPTIONS = new()
         {
@@ -181,11 +183,13 @@ namespace ShowHashes
 
             Config config = new();
 
+            configFilePath = Path.Combine(CONFIG_FILE_DIR, CONFIG_FILE_NAME);
+
             try
             {
-                if (File.Exists(CONFIG_FILE_NAME))
+                if (File.Exists(configFilePath))
                 {
-                    string json = File.ReadAllText(CONFIG_FILE_NAME);
+                    string json = File.ReadAllText(configFilePath);
                     config = JsonSerializer.Deserialize<Config>(json, JSON_SERIALIZER_OPTIONS) ?? new Config();
 
                     config.C_searchEngineValue = (config.C_searchEngineValue >= SEARCH_ENGINES.Length) ? 0 : config.C_searchEngineValue;
@@ -600,7 +604,7 @@ namespace ShowHashes
                 C_searchSeparatorInputText = searchSeparatorInputText,
             };
             string jsonString = JsonSerializer.Serialize(config, JSON_SERIALIZER_OPTIONS);
-            File.WriteAllText(CONFIG_FILE_NAME, jsonString);
+            File.WriteAllText(configFilePath, jsonString);
         }
 
         private void OpenConfig(object sender, RoutedEventArgs e)
