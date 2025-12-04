@@ -16,7 +16,7 @@
     <Authors>Felipe R.T.</Authors>
     <Copyright>Copyright (C) 2025 Felipe R.T.</Copyright>
     <Description>GUI to quickly view a file’s hash values</Description>
-    <AssemblyTitle>GUI to quickly view a file’s hash valuesü</AssemblyTitle>
+    <AssemblyTitle>GUI to quickly view a file’s hash values</AssemblyTitle>
     <RepositoryType>git</RepositoryType>
     <RepositoryUrl>https://github.com/FelipeRT98/ShowHashes</RepositoryUrl>
   </PropertyGroup>
