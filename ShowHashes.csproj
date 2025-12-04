@@ -9,10 +9,16 @@
     <PublishSingleFile>true</PublishSingleFile>
     <PackageIcon>shs.png</PackageIcon>
     <ApplicationIcon>shs.ico</ApplicationIcon>
-    <Version>1.0.1.0</Version>
-    <AssemblyVersion>1.0.1.0</AssemblyVersion>
-    <FileVersion>1.0.1.0</FileVersion>
+    <Version>1.0.1.1</Version>
+    <AssemblyVersion>1.0.1.1</AssemblyVersion>
+    <FileVersion>1.0.1.1</FileVersion>
+    <Company>Felipe R.T.</Company>
+    <Authors>Felipe R.T.</Authors>
     <Copyright>Copyright (C) 2025 Felipe R.T.</Copyright>
+    <Description>GUI to quickly view a file’s hash values</Description>
+    <AssemblyTitle>GUI to quickly view a file’s hash valuesü</AssemblyTitle>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/FelipeRT98/ShowHashes</RepositoryUrl>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
